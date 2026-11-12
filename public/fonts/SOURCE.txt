@@ -1,0 +1,3 @@
+Geist by Vercel. SIL Open Font License 1.1.
+Font CSS source: https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700&display=swap
+Font file source: https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_Re-Q4nQ.ttf

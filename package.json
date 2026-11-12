@@ -1,0 +1,36 @@
+{
+  "name": "homefit-sg",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HomeFit SG: a conversational Singapore rental area advisor (CS5224 course prototype)",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "setup": "node scripts/setup-env.mjs",
+    "check-ai": "node scripts/check-ai.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "verify": "npm run typecheck && npm test && npm run build",
+    "build:lambda": "bash deploy/build-lambda.sh"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "openai": "7.43.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
+  }
+}

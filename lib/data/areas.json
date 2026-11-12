@@ -1,0 +1,4119 @@
+{
+  "metadata": {
+    "version": "2026-11-11-demo-3",
+    "as_of": "2026-11-11",
+    "room_type": "common room",
+    "currency": "SGD",
+    "period": "month",
+    "destination": "NUS Kent Ridge",
+    "is_demo": true,
+    "source": "Course prototype demo estimate",
+    "disclaimer": "All rents, commute times, quiet scores and amenity scores are unverified demo estimates created for this prototype, covering 44 areas across Singapore. Commute times for areas and destinations added on 2026-11-11 come from a simple distance model. They are not live listings, market quotes or official transport data. Replace this dataset before any real-world use.",
+    "destinations": [
+      "NUS Kent Ridge",
+      "NTU",
+      "SMU",
+      "Raffles Place",
+      "Changi Business Park",
+      "one-north",
+      "SUTD",
+      "SIT Punggol",
+      "Jurong Lake District",
+      "Changi Airport"
+    ]
+  },
+  "areas": [
+    {
+      "area_id": "buona-vista",
+      "name": "Buona Vista",
+      "monthly_rent_sgd": 1300,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 15,
+      "commute_range_minutes": [
+        12,
+        20
+      ],
+      "commute_origin": "Buona Vista MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 4,
+      "tradeoff": "Strong commute and amenities, but rent is close to the demo budget and the area can be busy.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 15,
+          "range": [
+            12,
+            20
+          ]
+        },
+        "NTU": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "SMU": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "one-north": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "SUTD": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "clementi",
+      "name": "Clementi",
+      "monthly_rent_sgd": 1250,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 25,
+      "commute_range_minutes": [
+        20,
+        30
+      ],
+      "commute_origin": "Clementi MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 5,
+      "tradeoff": "Excellent everyday amenities, but the town centre is lively and the commute estimate varies with bus waits.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "NTU": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SMU": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "one-north": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "SUTD": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "dover",
+      "name": "Dover",
+      "monthly_rent_sgd": 1350,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 20,
+      "commute_range_minutes": [
+        15,
+        25
+      ],
+      "commute_origin": "Dover MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 3,
+      "tradeoff": "A high quiet rating, with fewer everyday amenities and higher rent for the room type.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "NTU": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "SMU": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "one-north": {
+          "minutes": 10,
+          "range": [
+            5,
+            15
+          ]
+        },
+        "SUTD": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "jurong-east",
+      "name": "Jurong East",
+      "monthly_rent_sgd": 1100,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 40,
+      "commute_range_minutes": [
+        35,
+        45
+      ],
+      "commute_origin": "Jurong East MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 4,
+      "tradeoff": "Lower rent and a major mall hub, but the commute is long and can reach the limit at peak times.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 40,
+          "range": [
+            35,
+            45
+          ]
+        },
+        "NTU": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "SMU": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "one-north": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "SUTD": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 10,
+          "range": [
+            5,
+            15
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 90,
+          "range": [
+            85,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "queenstown",
+      "name": "Queenstown",
+      "monthly_rent_sgd": 1380,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 30,
+      "commute_range_minutes": [
+        25,
+        35
+      ],
+      "commute_origin": "Queenstown MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 2,
+      "amenity_score": 5,
+      "tradeoff": "Very convenient and well served, but it is the least quiet demo area and leaves little budget headroom.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 30,
+          "range": [
+            25,
+            35
+          ]
+        },
+        "NTU": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "SMU": {
+          "minutes": 25,
+          "range": [
+            20,
+            35
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 25,
+          "range": [
+            20,
+            35
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "one-north": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "SUTD": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "bukit-batok",
+      "name": "Bukit Batok",
+      "monthly_rent_sgd": 950,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 50,
+      "commute_range_minutes": [
+        45,
+        55
+      ],
+      "commute_origin": "Bukit Batok MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 5,
+      "amenity_score": 2,
+      "tradeoff": "Lower illustrative rent and a high quiet rating; fewer amenities in this scenario.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 50,
+          "range": [
+            45,
+            55
+          ]
+        },
+        "NTU": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "SMU": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "one-north": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "SUTD": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 90,
+          "range": [
+            85,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "lakeside",
+      "name": "Lakeside",
+      "monthly_rent_sgd": 1050,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 60,
+      "commute_range_minutes": [
+        55,
+        70
+      ],
+      "commute_origin": "Lakeside MRT vicinity (illustrative scenario)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 3,
+      "tradeoff": "A lower-rent residential option; central and eastern journeys need more time.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "NTU": {
+          "minutes": 25,
+          "range": [
+            20,
+            35
+          ]
+        },
+        "SMU": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 90,
+          "range": [
+            85,
+            100
+          ]
+        },
+        "one-north": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "SUTD": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 90,
+          "range": [
+            85,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "monthly_rent_sgd": 1550,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 35,
+      "commute_range_minutes": [
+        30,
+        45
+      ],
+      "commute_origin": "Tiong Bahru MRT vicinity (illustrative scenario)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 5,
+      "tradeoff": "Central convenience comes with a higher illustrative rent.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "NTU": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "SMU": {
+          "minutes": 20,
+          "range": [
+            15,
+            30
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 15,
+          "range": [
+            10,
+            25
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "one-north": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "SUTD": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "toa-payoh",
+      "name": "Toa Payoh",
+      "monthly_rent_sgd": 1300,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 55,
+      "commute_range_minutes": [
+        50,
+        65
+      ],
+      "commute_origin": "Toa Payoh MRT vicinity (illustrative scenario)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 5,
+      "tradeoff": "An amenity-rich option with a longer westbound journey.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "NTU": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SMU": {
+          "minutes": 25,
+          "range": [
+            20,
+            35
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "one-north": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "SUTD": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "bishan",
+      "name": "Bishan",
+      "monthly_rent_sgd": 1450,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 50,
+      "commute_range_minutes": [
+        45,
+        60
+      ],
+      "commute_origin": "Bishan MRT vicinity (illustrative scenario)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 4,
+      "tradeoff": "A balanced residential option, but above a tight student budget.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "NTU": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "SMU": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "one-north": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "SUTD": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "monthly_rent_sgd": 1200,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 65,
+      "commute_range_minutes": [
+        60,
+        75
+      ],
+      "commute_origin": "Ang Mo Kio MRT vicinity (illustrative scenario)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 4,
+      "tradeoff": "More budget headroom, with longer journeys to western campuses.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "NTU": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "SMU": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "one-north": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SUTD": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "paya-lebar",
+      "name": "Paya Lebar",
+      "monthly_rent_sgd": 1400,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 55,
+      "commute_range_minutes": [
+        50,
+        65
+      ],
+      "commute_origin": "Paya Lebar MRT vicinity (illustrative scenario)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 2,
+      "amenity_score": 5,
+      "tradeoff": "Convenient for central and eastern destinations; a busy setting.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "NTU": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "SMU": {
+          "minutes": 25,
+          "range": [
+            20,
+            35
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 25,
+          "range": [
+            20,
+            35
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "one-north": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "SUTD": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "bedok",
+      "name": "Bedok",
+      "monthly_rent_sgd": 1150,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 70,
+      "commute_range_minutes": [
+        65,
+        80
+      ],
+      "commute_origin": "Bedok MRT vicinity (illustrative scenario)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 4,
+      "tradeoff": "Lower illustrative rent in the east; west-campus travel is lengthy.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "NTU": {
+          "minutes": 95,
+          "range": [
+            90,
+            105
+          ]
+        },
+        "SMU": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 25,
+          "range": [
+            20,
+            35
+          ]
+        },
+        "one-north": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "SUTD": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "tampines",
+      "name": "Tampines",
+      "monthly_rent_sgd": 1100,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 80,
+      "commute_range_minutes": [
+        75,
+        90
+      ],
+      "commute_origin": "Tampines MRT vicinity (illustrative scenario)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 4,
+      "tradeoff": "A useful eastern option, with a substantial westbound commute.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-10-24",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "NTU": {
+          "minutes": 100,
+          "range": [
+            95,
+            110
+          ]
+        },
+        "SMU": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 20,
+          "range": [
+            15,
+            30
+          ]
+        },
+        "one-north": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "SUTD": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "boon-lay",
+      "name": "Boon Lay",
+      "monthly_rent_sgd": 980,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 50,
+      "commute_range_minutes": [
+        45,
+        60
+      ],
+      "commute_origin": "Boon Lay MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 4,
+      "tradeoff": "Close to NTU and Jurong Point with a low demo rent, but the city centre and the east are long rides.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "NTU": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "SMU": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 90,
+          "range": [
+            85,
+            100
+          ]
+        },
+        "one-north": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SUTD": {
+          "minutes": 90,
+          "range": [
+            85,
+            100
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 95,
+          "range": [
+            90,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "monthly_rent_sgd": 920,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 50,
+      "commute_range_minutes": [
+        45,
+        60
+      ],
+      "commute_origin": "Choa Chu Kang MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 3,
+      "tradeoff": "Among the lowest demo rents in the west and fairly quiet, but most destinations need a change of line.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "NTU": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SMU": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "one-north": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SUTD": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "monthly_rent_sgd": 950,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 50,
+      "commute_range_minutes": [
+        45,
+        60
+      ],
+      "commute_origin": "Bukit Panjang MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 3,
+      "tradeoff": "Downtown Line runs straight into the city and the demo rent is low; the LRT loop adds time for some trips.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "NTU": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SMU": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "one-north": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SUTD": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "beauty-world",
+      "name": "Beauty World (Bukit Timah)",
+      "monthly_rent_sgd": 1350,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 40,
+      "commute_range_minutes": [
+        35,
+        50
+      ],
+      "commute_origin": "Beauty World MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 3,
+      "tradeoff": "Green, quiet Bukit Timah setting on the Downtown Line; mid-range demo rent and fewer late-night options.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "NTU": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "SMU": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "one-north": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "SUTD": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "holland-village",
+      "name": "Holland Village",
+      "monthly_rent_sgd": 1650,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 30,
+      "commute_range_minutes": [
+        25,
+        40
+      ],
+      "commute_origin": "Holland Village MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 2,
+      "amenity_score": 5,
+      "tradeoff": "Lively dining next to one-north and NUS; one of the higher demo rents and noisy in the evenings.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "NTU": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "SMU": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "one-north": {
+          "minutes": 10,
+          "range": [
+            5,
+            15
+          ]
+        },
+        "SUTD": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "commonwealth",
+      "name": "Commonwealth",
+      "monthly_rent_sgd": 1350,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 25,
+      "commute_range_minutes": [
+        20,
+        30
+      ],
+      "commute_origin": "Commonwealth MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 4,
+      "tradeoff": "Mature estate one stop from Queenstown with good food centres; older blocks and a moderate demo rent.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "NTU": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "SMU": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "one-north": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "SUTD": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "harbourfront",
+      "name": "HarbourFront (Telok Blangah)",
+      "monthly_rent_sgd": 1450,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 40,
+      "commute_range_minutes": [
+        35,
+        50
+      ],
+      "commute_origin": "HarbourFront MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 5,
+      "tradeoff": "Next to VivoCity on two MRT lines; demo rent is on the higher side and weekends get crowded.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "NTU": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SMU": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "one-north": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "SUTD": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "redhill",
+      "name": "Redhill",
+      "monthly_rent_sgd": 1400,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 35,
+      "commute_range_minutes": [
+        30,
+        45
+      ],
+      "commute_origin": "Redhill MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 4,
+      "tradeoff": "Short East-West Line ride to both the CBD and the NUS area; demo rent is close to city-fringe levels.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "NTU": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SMU": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "one-north": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "SUTD": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "woodlands",
+      "name": "Woodlands",
+      "monthly_rent_sgd": 900,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 70,
+      "commute_range_minutes": [
+        65,
+        80
+      ],
+      "commute_origin": "Woodlands MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 4,
+      "tradeoff": "Low demo rent and a large regional centre on two MRT lines, but far from NUS, NTU and the east.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "NTU": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "SMU": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "one-north": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "SUTD": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "yishun",
+      "name": "Yishun",
+      "monthly_rent_sgd": 930,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 75,
+      "commute_range_minutes": [
+        70,
+        85
+      ],
+      "commute_origin": "Yishun MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 4,
+      "tradeoff": "Affordable in this scenario with a big mall and food centres; long rides to the west and the east.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "NTU": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "SMU": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "one-north": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "SUTD": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "sembawang",
+      "name": "Sembawang",
+      "monthly_rent_sgd": 880,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 70,
+      "commute_range_minutes": [
+        65,
+        80
+      ],
+      "commute_origin": "Sembawang MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 5,
+      "amenity_score": 2,
+      "tradeoff": "Lowest demo rent and very quiet, but one of the furthest areas from almost every destination.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "NTU": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "SMU": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "one-north": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "SUTD": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "sengkang",
+      "name": "Sengkang",
+      "monthly_rent_sgd": 1050,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 70,
+      "commute_range_minutes": [
+        65,
+        80
+      ],
+      "commute_origin": "Sengkang MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 4,
+      "tradeoff": "Newer estate on the North East Line with LRT links; good value, though the west of the island is far.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "NTU": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "SMU": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "one-north": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "SUTD": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "punggol",
+      "name": "Punggol",
+      "monthly_rent_sgd": 1000,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 75,
+      "commute_range_minutes": [
+        70,
+        85
+      ],
+      "commute_origin": "Punggol MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 3,
+      "tradeoff": "Waterfront new town next to SIT's Punggol campus; low demo rent but long trips to the west.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "NTU": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "SMU": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "one-north": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "SUTD": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "hougang",
+      "name": "Hougang",
+      "monthly_rent_sgd": 1050,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 70,
+      "commute_range_minutes": [
+        65,
+        80
+      ],
+      "commute_origin": "Hougang MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 4,
+      "tradeoff": "Established, food-rich heartland on the North East Line; western destinations need a change of line.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "NTU": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "SMU": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "one-north": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "SUTD": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "serangoon",
+      "name": "Serangoon",
+      "monthly_rent_sgd": 1250,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 60,
+      "commute_range_minutes": [
+        55,
+        70
+      ],
+      "commute_origin": "Serangoon MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 4,
+      "tradeoff": "Interchange of the North East and Circle lines with a large mall; mid-range demo rent.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "NTU": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "SMU": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "one-north": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "SUTD": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "potong-pasir",
+      "name": "Potong Pasir",
+      "monthly_rent_sgd": 1250,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 55,
+      "commute_range_minutes": [
+        50,
+        65
+      ],
+      "commute_origin": "Potong Pasir MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 3,
+      "tradeoff": "Quiet riverside estate a few stops from the city; fewer shops right at the station.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "NTU": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "SMU": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "one-north": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SUTD": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "novena",
+      "name": "Novena",
+      "monthly_rent_sgd": 1550,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 50,
+      "commute_range_minutes": [
+        45,
+        60
+      ],
+      "commute_origin": "Novena MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 4,
+      "tradeoff": "Central, two stops from Orchard on the North-South Line; demo rent is above most heartland areas.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "NTU": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SMU": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "one-north": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "SUTD": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "farrer-park",
+      "name": "Farrer Park (Little India)",
+      "monthly_rent_sgd": 1350,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 45,
+      "commute_range_minutes": [
+        40,
+        55
+      ],
+      "commute_origin": "Farrer Park MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 2,
+      "amenity_score": 5,
+      "tradeoff": "Cheap eats and a short ride to the CBD; streets are busy and noisy into the night.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "NTU": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "SMU": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "one-north": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "SUTD": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "bugis",
+      "name": "Bugis",
+      "monthly_rent_sgd": 1700,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 50,
+      "commute_range_minutes": [
+        45,
+        60
+      ],
+      "commute_origin": "Bugis MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 1,
+      "amenity_score": 5,
+      "tradeoff": "Walking distance to SMU on two MRT lines; among the highest demo rents and very busy.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "NTU": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "SMU": {
+          "minutes": 10,
+          "range": [
+            5,
+            15
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "one-north": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "SUTD": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "outram-park",
+      "name": "Outram Park",
+      "monthly_rent_sgd": 1650,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 45,
+      "commute_range_minutes": [
+        40,
+        55
+      ],
+      "commute_origin": "Outram Park MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 2,
+      "amenity_score": 5,
+      "tradeoff": "Three MRT lines and a walk to the CBD; demo rent is high and the area is busy on weekdays.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "NTU": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SMU": {
+          "minutes": 10,
+          "range": [
+            5,
+            15
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 10,
+          "range": [
+            5,
+            15
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "one-north": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "SUTD": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "tanjong-pagar",
+      "name": "Tanjong Pagar",
+      "monthly_rent_sgd": 1750,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 45,
+      "commute_range_minutes": [
+        40,
+        55
+      ],
+      "commute_origin": "Tanjong Pagar MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 2,
+      "amenity_score": 5,
+      "tradeoff": "Walk to Raffles Place offices; top demo-rent tier with lively nightlife.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "NTU": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "SMU": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 10,
+          "range": [
+            5,
+            15
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "one-north": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "SUTD": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "kallang",
+      "name": "Kallang",
+      "monthly_rent_sgd": 1350,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 55,
+      "commute_range_minutes": [
+        50,
+        65
+      ],
+      "commute_origin": "Kallang MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 4,
+      "tradeoff": "Quick East-West Line access to the CBD and the Sports Hub; fewer quiet residential streets.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "NTU": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "SMU": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "one-north": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SUTD": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "aljunied",
+      "name": "Aljunied (Geylang)",
+      "monthly_rent_sgd": 1150,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 60,
+      "commute_range_minutes": [
+        55,
+        70
+      ],
+      "commute_origin": "Aljunied MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 2,
+      "amenity_score": 5,
+      "tradeoff": "Low demo rent close to the city with late-night food; parts of the area are noisy at night.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "NTU": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "SMU": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "one-north": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "SUTD": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "upper-thomson",
+      "name": "Upper Thomson",
+      "monthly_rent_sgd": 1350,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 55,
+      "commute_range_minutes": [
+        50,
+        65
+      ],
+      "commute_origin": "Upper Thomson MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 5,
+      "amenity_score": 3,
+      "tradeoff": "Leafy and quiet near MacRitchie on the Thomson-East Coast Line; fewer large malls.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "NTU": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "SMU": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "one-north": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "SUTD": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "somerset",
+      "name": "Somerset (River Valley)",
+      "monthly_rent_sgd": 1800,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 40,
+      "commute_range_minutes": [
+        35,
+        50
+      ],
+      "commute_origin": "Somerset MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 5,
+      "tradeoff": "Next to Orchard Road with easy CBD access; the most expensive area in this demo dataset.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "NTU": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SMU": {
+          "minutes": 10,
+          "range": [
+            5,
+            15
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 10,
+          "range": [
+            5,
+            15
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "one-north": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "SUTD": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 60,
+          "range": [
+            55,
+            70
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "marine-parade",
+      "name": "Marine Parade (Katong)",
+      "monthly_rent_sgd": 1400,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 65,
+      "commute_range_minutes": [
+        60,
+        75
+      ],
+      "commute_origin": "Marine Parade MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 5,
+      "tradeoff": "Near East Coast Park and Katong food on the Thomson-East Coast Line; demo rent is above the east average.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "NTU": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "SMU": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "one-north": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "SUTD": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "eunos",
+      "name": "Eunos",
+      "monthly_rent_sgd": 1150,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 65,
+      "commute_range_minutes": [
+        60,
+        75
+      ],
+      "commute_origin": "Eunos MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 3,
+      "amenity_score": 4,
+      "tradeoff": "Good-value East-West Line stop between Paya Lebar and Bedok; older blocks and fewer big malls.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "NTU": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "SMU": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "one-north": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "SUTD": {
+          "minutes": 35,
+          "range": [
+            30,
+            45
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "simei",
+      "name": "Simei",
+      "monthly_rent_sgd": 1050,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 80,
+      "commute_range_minutes": [
+        75,
+        90
+      ],
+      "commute_origin": "Simei MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 4,
+      "tradeoff": "Quiet and close to SUTD and Changi Business Park; the west of the island is over an hour away.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "NTU": {
+          "minutes": 95,
+          "range": [
+            90,
+            105
+          ]
+        },
+        "SMU": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "one-north": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "SUTD": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "pasir-ris",
+      "name": "Pasir Ris",
+      "monthly_rent_sgd": 950,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 85,
+      "commute_range_minutes": [
+        80,
+        95
+      ],
+      "commute_origin": "Pasir Ris MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 5,
+      "amenity_score": 3,
+      "tradeoff": "Low demo rent beside the beach park; end of the line, so most trips start with a long ride.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 85,
+          "range": [
+            80,
+            95
+          ]
+        },
+        "NTU": {
+          "minutes": 100,
+          "range": [
+            95,
+            110
+          ]
+        },
+        "SMU": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 55,
+          "range": [
+            50,
+            65
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "one-north": {
+          "minutes": 70,
+          "range": [
+            65,
+            80
+          ]
+        },
+        "SUTD": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 30,
+          "range": [
+            25,
+            40
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        }
+      }
+    },
+    {
+      "area_id": "tanah-merah",
+      "name": "Tanah Merah",
+      "monthly_rent_sgd": 1100,
+      "room_type": "common room",
+      "currency": "SGD",
+      "period": "month",
+      "commute_minutes": 80,
+      "commute_range_minutes": [
+        75,
+        90
+      ],
+      "commute_origin": "Tanah Merah MRT (demo estimate)",
+      "destination": "NUS Kent Ridge",
+      "quiet_score": 4,
+      "amenity_score": 3,
+      "tradeoff": "Branch-line stop towards Changi Airport and Expo; few shops right at the station.",
+      "source": "Demo estimate created for this course prototype; not a market quote",
+      "as_of": "2026-11-11",
+      "is_demo": true,
+      "commute_estimates": {
+        "NUS Kent Ridge": {
+          "minutes": 80,
+          "range": [
+            75,
+            90
+          ]
+        },
+        "NTU": {
+          "minutes": 95,
+          "range": [
+            90,
+            105
+          ]
+        },
+        "SMU": {
+          "minutes": 45,
+          "range": [
+            40,
+            55
+          ]
+        },
+        "Raffles Place": {
+          "minutes": 50,
+          "range": [
+            45,
+            60
+          ]
+        },
+        "Changi Business Park": {
+          "minutes": 15,
+          "range": [
+            10,
+            20
+          ]
+        },
+        "one-north": {
+          "minutes": 65,
+          "range": [
+            60,
+            75
+          ]
+        },
+        "SUTD": {
+          "minutes": 20,
+          "range": [
+            15,
+            25
+          ]
+        },
+        "SIT Punggol": {
+          "minutes": 40,
+          "range": [
+            35,
+            50
+          ]
+        },
+        "Jurong Lake District": {
+          "minutes": 75,
+          "range": [
+            70,
+            85
+          ]
+        },
+        "Changi Airport": {
+          "minutes": 25,
+          "range": [
+            20,
+            30
+          ]
+        }
+      }
+    }
+  ]
+}

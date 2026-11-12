@@ -1,0 +1,31 @@
+import { defineConfig, devices } from "@playwright/test";
+
+const port = process.env.DEMO_TEST_PORT || "3100";
+
+export default defineConfig({
+  testDir: "./tests/e2e",
+  fullyParallel: false,
+  workers: 1,
+  retries: 0,
+  reporter: "list",
+  use: {
+    baseURL: `http://127.0.0.1:${port}`,
+    trace: "retain-on-failure",
+  },
+  projects: [
+    {
+      name: "chromium-desktop",
+      use: { ...devices["Desktop Chrome"], viewport: { width: 1440, height: 1000 } },
+    },
+    {
+      name: "chromium-mobile",
+      use: { ...devices["Pixel 7"] },
+    },
+  ],
+  webServer: {
+    command: `npm run start -- -p ${port}`,
+    url: `http://127.0.0.1:${port}`,
+    reuseExistingServer: true,
+    timeout: 60000,
+  },
+});
